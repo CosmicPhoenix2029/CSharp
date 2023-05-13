@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\bin\Debug\net7.0\GetUserInput.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\bin\Debug\net7.0\GetUserInput.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\bin\Debug\net7.0\GetUserInput.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\bin\Debug\net7.0\GetUserInput.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\bin\Debug\net7.0\GetUserInput.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\GetUserInput.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\GetUserInput.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\GetUserInput.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\GetUserInput.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\GetUserInput.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\GetUserInput.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\refint\GetUserInput.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\GetUserInput.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\GetUserInput.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\GetUserInput\obj\Debug\net7.0\ref\GetUserInput.dll

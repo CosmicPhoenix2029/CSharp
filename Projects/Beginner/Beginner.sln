@@ -5,6 +5,13 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{4FD1D23B-3AE8-4049-8DBA-6049832C0796}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetUserInput", "GetUserInput\GetUserInput.csproj", "{3AAA1E95-D07A-4DA3-A21B-AA1771A8F198}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16FCF6AB-2086-455E-BB17-B18E9C6AD54F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{4FD1D23B-3AE8-4049-8DBA-6049832C0796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD1D23B-3AE8-4049-8DBA-6049832C0796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FD1D23B-3AE8-4049-8DBA-6049832C0796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAA1E95-D07A-4DA3-A21B-AA1771A8F198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAA1E95-D07A-4DA3-A21B-AA1771A8F198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAA1E95-D07A-4DA3-A21B-AA1771A8F198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAA1E95-D07A-4DA3-A21B-AA1771A8F198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
