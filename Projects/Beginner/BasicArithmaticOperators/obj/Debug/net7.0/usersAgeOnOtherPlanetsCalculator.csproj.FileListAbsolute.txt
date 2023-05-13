@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\bin\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\bin\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\bin\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\bin\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\bin\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\refint\usersAgeOnOtherPlanetsCalculator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\usersAgeOnOtherPlanetsCalculator.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\BasicArithmaticOperators\obj\Debug\net7.0\ref\usersAgeOnOtherPlanetsCalculator.dll
