@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\bin\Debug\net7.0\moduloOperator.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\bin\Debug\net7.0\moduloOperator.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\bin\Debug\net7.0\moduloOperator.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\bin\Debug\net7.0\moduloOperator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\bin\Debug\net7.0\moduloOperator.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\moduloOperator.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\moduloOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\moduloOperator.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\moduloOperator.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\moduloOperator.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\moduloOperator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\refint\moduloOperator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\moduloOperator.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\moduloOperator.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\moduloOperator\obj\Debug\net7.0\ref\moduloOperator.dll
