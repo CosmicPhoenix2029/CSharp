@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\bin\Debug\net7.0\builtInMathsMethods.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\bin\Debug\net7.0\builtInMathsMethods.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\bin\Debug\net7.0\builtInMathsMethods.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\bin\Debug\net7.0\builtInMathsMethods.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\bin\Debug\net7.0\builtInMathsMethods.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\builtInMathsMethods.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\builtInMathsMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\builtInMathsMethods.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\builtInMathsMethods.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\builtInMathsMethods.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\builtInMathsMethods.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\refint\builtInMathsMethods.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\builtInMathsMethods.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\builtInMathsMethods.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\builtInMathsMethods\obj\Debug\net7.0\ref\builtInMathsMethods.dll
