@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\bin\Debug\net7.0\WorkingWithStrings.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\bin\Debug\net7.0\WorkingWithStrings.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\bin\Debug\net7.0\WorkingWithStrings.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\bin\Debug\net7.0\WorkingWithStrings.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\bin\Debug\net7.0\WorkingWithStrings.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\WorkingWithStrings.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\WorkingWithStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\WorkingWithStrings.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\WorkingWithStrings.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\WorkingWithStrings.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\WorkingWithStrings.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\refint\WorkingWithStrings.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\WorkingWithStrings.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\WorkingWithStrings.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\WorkingWithStrings\obj\Debug\net7.0\ref\WorkingWithStrings.dll
