@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\bin\Debug\net7.0\incrementAndDecrementOperators.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\bin\Debug\net7.0\incrementAndDecrementOperators.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\bin\Debug\net7.0\incrementAndDecrementOperators.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\bin\Debug\net7.0\incrementAndDecrementOperators.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\bin\Debug\net7.0\incrementAndDecrementOperators.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\incrementAndDecrementOperators.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\incrementAndDecrementOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\incrementAndDecrementOperators.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\incrementAndDecrementOperators.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\incrementAndDecrementOperators.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\incrementAndDecrementOperators.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\refint\incrementAndDecrementOperators.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\incrementAndDecrementOperators.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\incrementAndDecrementOperators.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\incrementAndDecrementOperators\obj\Debug\net7.0\ref\incrementAndDecrementOperators.dll

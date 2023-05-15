@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\userAgeOnOtherPlanetsCalculator"
   ],
+  "SelectedNode": "\\userAgeOnOtherPlanetsCalculator\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
