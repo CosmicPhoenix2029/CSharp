@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\incrementAndDecrementOperators",
+    "\\moduloOperator",
     "\\userAgeOnOtherPlanetsCalculator"
   ],
-  "SelectedNode": "\\userAgeOnOtherPlanetsCalculator\\Program.cs",
+  "SelectedNode": "\\moduloOperator\\moduloOperator.csproj",
   "PreviewInSolutionExplorer": false
 }
