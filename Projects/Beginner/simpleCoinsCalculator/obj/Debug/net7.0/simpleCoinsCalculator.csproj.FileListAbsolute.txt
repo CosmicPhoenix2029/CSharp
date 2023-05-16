@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\bin\Debug\net7.0\simpleCoinsCalculator.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\bin\Debug\net7.0\simpleCoinsCalculator.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\bin\Debug\net7.0\simpleCoinsCalculator.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\bin\Debug\net7.0\simpleCoinsCalculator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\bin\Debug\net7.0\simpleCoinsCalculator.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\simpleCoinsCalculator.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\simpleCoinsCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\simpleCoinsCalculator.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\simpleCoinsCalculator.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\simpleCoinsCalculator.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\simpleCoinsCalculator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\refint\simpleCoinsCalculator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\simpleCoinsCalculator.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\simpleCoinsCalculator.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\simpleCoinsCalculator\obj\Debug\net7.0\ref\simpleCoinsCalculator.dll
