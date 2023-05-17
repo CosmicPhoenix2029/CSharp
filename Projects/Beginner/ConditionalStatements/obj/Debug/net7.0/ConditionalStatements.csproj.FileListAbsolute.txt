@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\bin\Debug\net7.0\ConditionalStatements.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\bin\Debug\net7.0\ConditionalStatements.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\bin\Debug\net7.0\ConditionalStatements.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\bin\Debug\net7.0\ConditionalStatements.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\bin\Debug\net7.0\ConditionalStatements.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\ConditionalStatements.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\ConditionalStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\ConditionalStatements.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\ConditionalStatements.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\ConditionalStatements.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\ConditionalStatements.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\refint\ConditionalStatements.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\ConditionalStatements.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\ConditionalStatements.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\ConditionalStatements\obj\Debug\net7.0\ref\ConditionalStatements.dll

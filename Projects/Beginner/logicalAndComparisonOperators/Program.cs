@@ -40,3 +40,9 @@ Console.WriteLine(orExample);
 //NOT ! (returns the opposite value as to what it is comparing)
 bool notExample = !(1 < 3);
 Console.WriteLine(notExample);
+
+
+//***Ternary operator (?)
+string colour = "blue";
+//condition to evaluate ()| if condition is true, result will be "blue", if false result will be "NOT blue"   
+string result = (colour == "blue") ? "blue" : "NOT blue";
