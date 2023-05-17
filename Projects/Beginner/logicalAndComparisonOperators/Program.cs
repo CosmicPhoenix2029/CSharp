@@ -46,3 +46,7 @@ Console.WriteLine(notExample);
 string colour = "blue";
 //condition to evaluate ()| if condition is true, result will be "blue", if false result will be "NOT blue"   
 string result = (colour == "blue") ? "blue" : "NOT blue";
+
+//another example:
+int pepperLength = 4;
+string message = (pepperLength >= 3.5) ? "Ready!" : "wait a little longer"
