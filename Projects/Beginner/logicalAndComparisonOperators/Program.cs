@@ -29,7 +29,7 @@ Console.WriteLine(greaterThanOrEqual);
 //***Logical Operators***
 
 
-//AND && (returns true if both LHS and LHS return true)
+//AND && (returns true if both LHS and RHS return true)
 bool andExample = ((9 < 10) && (20 > 19));
 Console.WriteLine(andExample);
 
