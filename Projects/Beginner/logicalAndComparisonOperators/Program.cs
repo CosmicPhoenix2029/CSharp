@@ -49,4 +49,4 @@ string result = (colour == "blue") ? "blue" : "NOT blue";
 
 //another example:
 int pepperLength = 4;
-string message = (pepperLength >= 3.5) ? "Ready!" : "wait a little longer"
+string message = (pepperLength >= 3.5) ? "Ready!" : "wait a little longer";
