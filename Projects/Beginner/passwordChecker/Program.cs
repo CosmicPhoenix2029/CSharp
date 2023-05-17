@@ -1,10 +1,6 @@
 ﻿//project to practice conditional logic and comparison operators
 
 int minLength = 8;
-string uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-string lowercase = uppercase.ToLower();
-string digits = "0123456789";
-string specialChars = "!\"£$%^&*()?~#@':;{[]}";
 
 //ask the user to enter a password:
 Console.WriteLine("Please enter a password");
