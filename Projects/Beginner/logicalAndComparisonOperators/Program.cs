@@ -39,7 +39,7 @@ Console.WriteLine(orExample);
 
 //NOT ! (returns the opposite value as to what it is comparing)
 bool notExample = !(1 < 3);
-Console.WriteLine(notExample);
+Console.WriteLine(notExample); 
 
 
 //***Ternary operator (?)
