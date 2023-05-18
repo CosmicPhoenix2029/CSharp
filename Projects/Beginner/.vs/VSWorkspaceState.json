@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\incrementAndDecrementOperators",
-    "\\moduloOperator",
-    "\\userAgeOnOtherPlanetsCalculator"
+    ""
   ],
+  "SelectedNode": "\\logicalAndComparisonOperators",
   "PreviewInSolutionExplorer": false
 }

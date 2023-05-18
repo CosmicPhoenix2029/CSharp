@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\bin\Debug\net7.0\Methods.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\bin\Debug\net7.0\Methods.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\bin\Debug\net7.0\Methods.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\bin\Debug\net7.0\Methods.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\bin\Debug\net7.0\Methods.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\Methods.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\Methods.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\Methods.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\Methods.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\Methods.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\refint\Methods.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\Methods.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\Methods.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\Methods\obj\Debug\net7.0\ref\Methods.dll
