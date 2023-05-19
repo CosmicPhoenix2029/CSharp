@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\bin\Debug\net7.0\architectCostEstimator.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\bin\Debug\net7.0\architectCostEstimator.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\bin\Debug\net7.0\architectCostEstimator.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\bin\Debug\net7.0\architectCostEstimator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\bin\Debug\net7.0\architectCostEstimator.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\architectCostEstimator.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\architectCostEstimator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\architectCostEstimator.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\architectCostEstimator.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\architectCostEstimator.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\architectCostEstimator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\refint\architectCostEstimator.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\architectCostEstimator.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\architectCostEstimator.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\architectCostEstimator\obj\Debug\net7.0\ref\architectCostEstimator.dll
