@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\bin\Debug\net7.0\AlternateExpressions.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\bin\Debug\net7.0\AlternateExpressions.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\bin\Debug\net7.0\AlternateExpressions.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\bin\Debug\net7.0\AlternateExpressions.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\bin\Debug\net7.0\AlternateExpressions.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\AlternateExpressions.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\AlternateExpressions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\AlternateExpressions.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\AlternateExpressions.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\AlternateExpressions.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\AlternateExpressions.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\refint\AlternateExpressions.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\AlternateExpressions.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\AlternateExpressions.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Beginner\AlternateExpressions\obj\Debug\net7.0\ref\AlternateExpressions.dll
