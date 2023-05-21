@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Methods",
+    "\\passwordChecker"
   ],
-  "SelectedNode": "\\logicalAndComparisonOperators",
   "PreviewInSolutionExplorer": false
 }
