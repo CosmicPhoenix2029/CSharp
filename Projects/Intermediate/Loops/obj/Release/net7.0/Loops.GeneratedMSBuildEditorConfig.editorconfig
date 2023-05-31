@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Arrays
-build_property.ProjectDir = C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\Arrays\
+build_property.RootNamespace = Loops
+build_property.ProjectDir = C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\Loops\
