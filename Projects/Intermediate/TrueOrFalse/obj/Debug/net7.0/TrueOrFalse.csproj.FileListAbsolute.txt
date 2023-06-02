@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\TrueOrFalse.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\TrueOrFalse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\TrueOrFalse.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\TrueOrFalse.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\TrueOrFalse.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\bin\Debug\net7.0\TrueOrFalse.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\bin\Debug\net7.0\TrueOrFalse.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\bin\Debug\net7.0\TrueOrFalse.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\bin\Debug\net7.0\TrueOrFalse.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\bin\Debug\net7.0\TrueOrFalse.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\TrueOrFalse.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\refint\TrueOrFalse.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\TrueOrFalse.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\TrueOrFalse.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\TrueOrFalse\obj\Debug\net7.0\ref\TrueOrFalse.dll
