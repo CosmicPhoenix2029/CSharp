@@ -1,4 +1,4 @@
-﻿namespace Classes 
+﻿namespace Classes
 {
     public class Forest
     {
@@ -7,13 +7,18 @@
         private string biome;
         private int age;
 
+        //example of a static field (static is accessed via the class itself, not the instance of the class)
+        private static int forestsCreated;
+        private static string treeFacts;
         //here is an example of a constructor
         public Forest(string name, string biome)
-        { 
+        {
             //using the "this" keyword to show that the properties are set on the specific instance of the Forest class
             this.Name = name;
             this.Biome = biome;
-            Age = 0;
+            this.Age = 0;
+            //keeps track of the number of instances of Forest
+            ForestsCreated++;
         }
 
         /*overloading the constructor:
@@ -23,7 +28,27 @@
          - This will call the original constructor, passing in the provided name parameter, and a default value of unknown as the "biome" parameter*/
         public Forest(string name) : this(name, "unknown")
         {
-            Console.WriteLine("WARNING! name not provided. Defaulting the value to unknown.");               
+            Console.WriteLine("WARNING! name not provided. Defaulting the value to unknown.");
+        }
+
+        //static constructor (used to set the values of static fields and properties)
+        //This update the values each time a new object is created
+        static Forest()
+        {
+            treeFacts = "Forests provide a diversity of ecosystem services including:\r\n  aiding in regulating climate.\r\n  purifying water.\r\n  mitigating natural hazards such as floods.\n";   
+            ForestsCreated = 0;
+        }
+
+        //static properties
+        public static int ForestsCreated
+        {
+            get { return forestsCreated; }
+            private set { forestsCreated = value; }
+        }
+
+        public static string TreeFacts
+        {
+            get { return treeFacts; }
         }
 
         //basic property with no input validation --best practice is uppercase
@@ -65,6 +90,10 @@
             Trees = Trees - 20;
             Age++;
             return Trees;
+        }
+        public static void PrintTreeFacts()
+        {
+            Console.WriteLine(treeFacts);
         }
     }
 }
