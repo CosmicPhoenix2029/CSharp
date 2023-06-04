@@ -1,7 +1,4 @@
-﻿using Interfaces;
-using System;
-
-namespace LearnInterfaces
+﻿namespace LearnInterfaces
 {
     class Program
     {

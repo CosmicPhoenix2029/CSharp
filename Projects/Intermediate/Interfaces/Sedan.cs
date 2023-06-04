@@ -1,5 +1,4 @@
-﻿using System;
-namespace Interfaces
+﻿namespace Interfaces
 {
     //defining a class that implements the interface IAutomobile
     public class Sedan : IAutomobile
@@ -34,5 +33,4 @@ namespace Interfaces
             this.Speed -= 5;
         }
     }
-
 }
