@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\bin\Debug\net7.0\UserProfiles.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\bin\Debug\net7.0\UserProfiles.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\bin\Debug\net7.0\UserProfiles.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\bin\Debug\net7.0\UserProfiles.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\bin\Debug\net7.0\UserProfiles.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\UserProfiles.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\UserProfiles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\UserProfiles.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\UserProfiles.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\UserProfiles.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\UserProfiles.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\refint\UserProfiles.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\UserProfiles.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\UserProfiles.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\UserProfiles\obj\Debug\net7.0\ref\UserProfiles.dll
