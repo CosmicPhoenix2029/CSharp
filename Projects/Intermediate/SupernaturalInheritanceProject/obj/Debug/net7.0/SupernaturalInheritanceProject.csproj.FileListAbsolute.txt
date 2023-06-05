@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\bin\Debug\net7.0\SupernaturalInheritanceProject.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\bin\Debug\net7.0\SupernaturalInheritanceProject.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\bin\Debug\net7.0\SupernaturalInheritanceProject.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\bin\Debug\net7.0\SupernaturalInheritanceProject.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\bin\Debug\net7.0\SupernaturalInheritanceProject.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\SupernaturalInheritanceProject.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\SupernaturalInheritanceProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\SupernaturalInheritanceProject.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\SupernaturalInheritanceProject.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\SupernaturalInheritanceProject.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\SupernaturalInheritanceProject.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\refint\SupernaturalInheritanceProject.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\SupernaturalInheritanceProject.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\SupernaturalInheritanceProject.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\SuperNaturalInheritanceProject\obj\Debug\net7.0\ref\SupernaturalInheritanceProject.dll
