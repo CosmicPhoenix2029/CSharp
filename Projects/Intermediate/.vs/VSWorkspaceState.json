@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Classes"
+    "\\Classes",
+    "\\Interfaces",
+    "\\UserProfiles"
   ],
-  "SelectedNode": "\\Classes\\Program.cs",
+  "SelectedNode": "\\Inheritance",
   "PreviewInSolutionExplorer": false
 }

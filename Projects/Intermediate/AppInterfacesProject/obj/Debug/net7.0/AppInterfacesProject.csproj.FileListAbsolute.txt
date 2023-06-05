@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\bin\Debug\net7.0\AppInterfacesProject.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\bin\Debug\net7.0\AppInterfacesProject.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\bin\Debug\net7.0\AppInterfacesProject.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\bin\Debug\net7.0\AppInterfacesProject.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\bin\Debug\net7.0\AppInterfacesProject.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\AppInterfacesProject.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\AppInterfacesProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\AppInterfacesProject.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\AppInterfacesProject.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\AppInterfacesProject.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\AppInterfacesProject.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\refint\AppInterfacesProject.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\AppInterfacesProject.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\AppInterfacesProject.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\AppInterfacesProject\obj\Debug\net7.0\ref\AppInterfacesProject.dll
