@@ -11,7 +11,7 @@ class Program
         //MoonRover apollo = new MoonRover("Apollo 15", 1971);
         //MarsRover sojourner = new MarsRover("Sojourner", 1997);
         Rover[] rovers = { new MoonRover("Lunokhod 1", 1970), new MoonRover("Apollo 15", 1971), new MarsRover("Sojourner", 1997) };
-        DirectAll(rovers);
+        
 
         //manage all probes (rovers and satillites (both implement IDirectable))
         //Satillite sputnik = new Satillite("Sputnik", 1957);
@@ -21,6 +21,8 @@ class Program
         {
             Console.WriteLine($"Checking type...{probe.GetType()}");    
         }
+
+        DirectAll(probes);
     }
     //Method for testing
     //as this isnt changing data, it can be static, and referenced without an object reference:
