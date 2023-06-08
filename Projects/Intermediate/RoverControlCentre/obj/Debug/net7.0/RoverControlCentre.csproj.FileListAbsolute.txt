@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\bin\Debug\net7.0\RoverControlCentre.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\bin\Debug\net7.0\RoverControlCentre.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\bin\Debug\net7.0\RoverControlCentre.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\bin\Debug\net7.0\RoverControlCentre.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\bin\Debug\net7.0\RoverControlCentre.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\RoverControlCentre.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\RoverControlCentre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\RoverControlCentre.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\RoverControlCentre.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\RoverControlCentre.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\RoverControlCentre.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\refint\RoverControlCentre.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\RoverControlCentre.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\RoverControlCentre.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\RoverControlCentre\obj\Debug\net7.0\ref\RoverControlCentre.dll
