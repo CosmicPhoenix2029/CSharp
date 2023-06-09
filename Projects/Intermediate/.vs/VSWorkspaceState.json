@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RoverControlCentre"
   ],
-  "SelectedNode": "\\SupernaturalInheritanceProject",
+  "SelectedNode": "\\RoverControlCentre\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
