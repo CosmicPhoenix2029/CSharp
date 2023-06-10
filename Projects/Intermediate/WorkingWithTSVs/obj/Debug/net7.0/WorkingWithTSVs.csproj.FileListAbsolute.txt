@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\bin\Debug\net7.0\WorkingWithTSVs.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\bin\Debug\net7.0\WorkingWithTSVs.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\bin\Debug\net7.0\WorkingWithTSVs.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\bin\Debug\net7.0\WorkingWithTSVs.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\bin\Debug\net7.0\WorkingWithTSVs.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\WorkingWithTSVs.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\WorkingWithTSVs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\WorkingWithTSVs.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\WorkingWithTSVs.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\WorkingWithTSVs.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\WorkingWithTSVs.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\refint\WorkingWithTSVs.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\WorkingWithTSVs.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\WorkingWithTSVs.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\Projects\Intermediate\WorkingWithTSVs\obj\Debug\net7.0\ref\WorkingWithTSVs.dll

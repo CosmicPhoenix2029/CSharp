@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\LINQ",
     "\\RoverControlCentre"
   ],
-  "SelectedNode": "\\RoverControlCentre\\Program.cs",
+  "SelectedNode": "\\LINQ\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
