@@ -1,0 +1,21 @@
+ ***mandatory requirements***
+ 
+ - Create a Math game containing the 4 basic operands
+
+ - The divisions should result on integers only and dividends should go from 0 to 100
+
+ - Users should be presented with a menu to choose an operation
+
+ - You should record previous games in a list and there should be an option in the menu for the user to visualise a history of previous games
+
+ - Results do not need to be recorded in a database. Once the program is closed the results will be deleted.
+
+ ***extra requirements***
+
+ - implement levels of difficulty
+
+ - add a timer to track how long the user takes to finish the game
+
+ - Add a function that lets the user pick the number of questions
+ 
+ - create a random game option where the player will be presented with questions from any of the operations
