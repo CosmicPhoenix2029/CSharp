@@ -1,0 +1,15 @@
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\MathGame.csproj.AssemblyReference.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\MathGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\MathGame.AssemblyInfoInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\MathGame.AssemblyInfo.cs
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\MathGame.csproj.CoreCompileInputs.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\bin\Debug\net7.0\MathGame.exe
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\bin\Debug\net7.0\MathGame.deps.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\bin\Debug\net7.0\MathGame.runtimeconfig.json
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\bin\Debug\net7.0\MathGame.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\bin\Debug\net7.0\MathGame.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\MathGame.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\refint\MathGame.dll
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\MathGame.pdb
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\MathGame.genruntimeconfig.cache
+C:\Users\haydn\source\repos\CosmicPhoenix2029\CSharp\TheCSharpAcademy\ConsoleApps\MathGame\obj\Debug\net7.0\ref\MathGame.dll
