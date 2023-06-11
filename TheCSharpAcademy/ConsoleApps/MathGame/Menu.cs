@@ -2,7 +2,7 @@
 public class Menu
 {
     //get the gamemode
-    public static string GameModeSelector()
+    public static string GetGameMode()
     {
         string response = String.Empty;
         while (!(response == "A") || (response == "S") || (response == "M") || (response == "D") || (response == "R"))

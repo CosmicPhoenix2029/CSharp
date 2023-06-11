@@ -17,46 +17,174 @@ public class GameEngine
         NumberOfQuestions = numberOfQuestions;
     }
 
-    public void AdditionQuestion(string difficulty)
+    //ask a question (takes in the gamemode, difficulty and an operand as params)
+    //if the player chooses random gamemode, then generate a random number and use that to index into the operations array
+    public void AskQuestion()
     {
         string question;
         int playerAnswer;
         int answer;
+        char[] operations = { '+', '-', '*', '/'};
         Random randomNumber = new Random();
+        //generate 4 random numbers
         int numOne = randomNumber.Next(1, 100);
         int numTwo = randomNumber.Next(1, 100);
         int numThree = randomNumber.Next(1, 100);
         int numFour = randomNumber.Next(1, 100);
-
-        switch (difficulty) 
+        //switch through the gamemode, and then the difficulty
+        switch (this.GameMode) 
         {
-            case "E":
-                question = $"What is {numOne} + {numTwo}?";
-                answer = numOne + numTwo;
-                playerAnswer = int.Parse(Console.ReadLine());
-                Results.Add(@$"The Question was: {question}
-                You Answered: {playerAnswer}
-                The correct Answer was: {answer}");
+            case "A": //Addition GameMode:
+                switch (this.Difficulty)
+                {
+                    case "E": //Easy Difficulty:
+                        question = $"What is: {numOne} + {numTwo}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne + numTwo;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+
+                    case "M": //Medium Difficulty:
+                        question = $"What is: {numOne} + {numTwo} + {numThree}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne + numTwo + numThree;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+
+                    case "H": //Hard Difficulty:
+                        question = $"What is: {numOne} + {numTwo} + {numThree} + {numFour}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne + numTwo + numThree + numFour;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+                }
                 break;
 
-            case "M":
-                question = $"What is {numOne} + {numTwo} + {numThree}?";
-                answer = numOne + numTwo + numThree;
-                playerAnswer = int.Parse(Console.ReadLine());
-                Results.Add(@$"The Question was: {question}
-                You Answered: {playerAnswer}
-                The correct Answer was: {answer}");
+            case "S": //Subtract gamemode:
+                switch (this.Difficulty)
+                {
+                    case "E": //Easy Difficulty:
+                        question = $"What is: {numOne} - {numTwo}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne - numTwo;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+
+                    case "M": //Medium Difficulty:
+                        question = $"What is: {numOne} - {numTwo} - {numThree}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne - numTwo - numThree;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+
+                    case "H": //Hard Difficulty:
+                        question = $"What is: {numOne} - {numTwo} - {numThree} - {numFour}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne - numTwo - numThree - numFour;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+                }
                 break;
 
-            case "H":
-                question = $"What is {numOne} + {numTwo} + {numThree} + {numFour}?";
-                answer = numOne + numTwo + numThree + numFour;
-                playerAnswer = int.Parse(Console.ReadLine());
-                Results.Add(@$"The Question was: {question}
-                You Answered: {playerAnswer}
-                The correct Answer was: {answer}");
-                break;
-        }       
+            case "M": //Multiplication gameMode:
+                switch (this.Difficulty)
+                {
+                    case "E": //Easy Difficulty:
+                        question = $"What is: {numOne} * {numTwo}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne * numTwo;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
 
+                    case "M": //Medium Difficulty:
+                        question = $"What is: {numOne} * {numTwo} * {numThree}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne * numTwo * numThree;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+
+                    case "H": //Hard Difficulty:
+                        question = $"What is: {numOne} * {numTwo} * {numThree} * {numFour}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne * numTwo * numThree * numFour;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+                }
+                break;
+
+            case "D": //Division gameMode:
+                switch (this.Difficulty)
+                {
+                    case "E": //Easy Difficulty:
+                        question = $"What is: {numOne} / {numTwo}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne / numTwo;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+
+                    case "M": //Medium Difficulty:
+                        question = $"What is: {numOne} / {numTwo} / {numThree}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne / numTwo / numThree;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+
+                    case "H": //Hard Difficulty:
+                        question = $"What is: {numOne} / {numTwo} / {numThree} / {numFour}";
+                        Console.WriteLine(question);
+                        playerAnswer = int.Parse(Console.ReadLine());
+                        answer = numOne / numTwo / numThree / numFour;
+                        Results.Add(@$"The Question was: {question}
+                        You Answered: {playerAnswer}
+                        The correct Answer was: {answer}");
+                        break;
+                }
+                break;
+
+            case "R":
+                switch (this.Difficulty)
+                {
+                    case "E":
+                        break;
+                    case "M":
+                        break;
+                    case "H":
+                        break;
+                }
+                break;
+        }
     }
 }
