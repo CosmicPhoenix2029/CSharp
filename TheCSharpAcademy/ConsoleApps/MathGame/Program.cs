@@ -7,9 +7,8 @@ class Program
         string gameMode = Menu.GameModeSelector();
         string difficulty = Menu.GetDifficulty();
         int numberOfQuestions = Menu.GetNumberOfQuestions();
-        Console.WriteLine(@$"Testing:
-        {gameMode}
-        {difficulty}
-        {numberOfQuestions}");  
+
+        //create a new game
+        GameEngine game = new GameEngine(gameMode, difficulty, numberOfQuestions);
     }
 }
