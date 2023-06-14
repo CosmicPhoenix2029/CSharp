@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ConsoleApps",
+    "\\ConsoleApps\\MathGame"
   ],
+  "SelectedNode": "\\ConsoleApps\\MathGame\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

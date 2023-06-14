@@ -4,37 +4,39 @@ public class Menu
     //get the gamemode
     public static string GetGameMode()
     {
-        string response = String.Empty;
-        while (!(response == "A") || (response == "S") || (response == "M") || (response == "D") || (response == "R"))
+        string[] validOptions = { "A", "S", "M", "D", "R"};
+        string response = "";
+        do
         {
-            Console.WriteLine(@$"Welcome to my maths game! Please enter an option from the list below:
-            A - Addition    
-            S - Subtraction
-            M - Multiplication
-            D - Division
-            R - Random");
-            response = Console.ReadLine().ToUpper();
+            Console.WriteLine($"Welcome to my maths game! Please enter an option from the list below:\n"
+              + "A - Addition\n"
+              + "S - Subtraction\n"
+              + "M - Multiplication\n"
+              + "D - Division\n"
+              + "R - Random");
+            response = Console.ReadLine()!.ToUpper();
             Console.Clear();
         }
+        while (!(validOptions.Contains(response)));
         return response;
     }
 
     //get the difficulty:
     public static string GetDifficulty()
     {
-        string difficulty = String.Empty;
-
-        //loop through until a valid option is entered:
-        while (!(difficulty == "E") || (difficulty == "M") || (difficulty == "H"))
+        string[] validOptions = { "E", "M", "H" };
+        string difficulty = "";
+        do
         {
-            Console.WriteLine($@"Please select a difficulty:
-            E - Easy
-            M - Medium
-            H - Hard");
+            Console.WriteLine($"Please select a difficulty:\n"
+            + "E - Easy (2 numbers)\n"
+            + "M - Medium (3 numbers)\n"
+            + "H - Hard (4 numbers)");
 
-            difficulty = Console.ReadLine().ToUpper();
+            difficulty = Console.ReadLine()!.ToUpper();
             Console.Clear();
         }
+        while (!(validOptions.Contains(difficulty)));
         return difficulty;
     }
 
