@@ -1,7 +1,7 @@
-﻿using System.Diagnostics;
-using System.Security.Cryptography;
-
+﻿using System.ComponentModel.Design;
+using System.Diagnostics;
 namespace MathGame;
+
 public class GameEngine
 {
     //gameEngine properties:
@@ -10,7 +10,7 @@ public class GameEngine
     public int NumberOfQuestions { get; set; }
     public int Score { get; private set; }
     //using stopwatch to get the time elapsed in game
-    public TimeSpan TimeTaken { get; set; }
+    public string TimeTaken { get; set; }
     //list to store the game history:
     public List<string> Results { get; set; }
     
@@ -22,6 +22,7 @@ public class GameEngine
         NumberOfQuestions = numberOfQuestions;
         Results = new List<string> { };
         Score = 0;
+        TimeTaken = "";
     }
 
     //iterate through the number of questions, passing the GameMode and Difficulty onto the GameItem class
@@ -30,13 +31,43 @@ public class GameEngine
         long startTime = Stopwatch.GetTimestamp();
         for (int i = 0; i < NumberOfQuestions; i++)
         {
-            GameItem question = new GameItem(GameMode, Difficulty);
-            string result = question.AskQuestion();
-            Results.Add(result);
-            //increment the score if correct:
-            if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
+            Random randomNumber = new Random();
+            int number = randomNumber.Next(1, 4);
+            if (GameMode.Equals("R"))
+            { 
+                switch (number)
+                {
+                    case 1:
+                        GameMode = "A";
+                        break;
+                    case 2:
+                        GameMode = "S";
+                        break;
+                    case 3:
+                        GameMode = "M";
+                        break;
+                    case 4:
+                        GameMode = "D";
+                        break;
+                    GameItem question = new GameItem(GameMode, Difficulty);
+                    string result = question.AskQuestion();
+                    Results.Add(result);
+                    //increment the score if correct:
+                    if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
+                    GameMode = "R";
+                }
+            }
+            else
+            {
+                GameItem question = new GameItem(GameMode, Difficulty);
+                string result = question.AskQuestion();
+                Results.Add(result);
+                //increment the score if correct:
+                if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
+            }
+
         }
-        TimeTaken = Stopwatch.GetElapsedTime(startTime);
+        TimeTaken = Stopwatch.GetElapsedTime(startTime).ToString(@"mm\:ss");
         return RecordGame();
     }
 
@@ -56,16 +87,16 @@ public class GameEngine
 
         switch (Difficulty) 
         {
-            case "E": gameMode = "Easy"; break;
-            case "M": gameMode = "Medium"; break;
-            case "H": gameMode = "Hard"; break;
+            case "E": difficulty = "Easy"; break;
+            case "M": difficulty = "Medium"; break;
+            case "H": difficulty = "Hard"; break;
         }
 
         string gameResults = $"GameMode: {gameMode}\n"
             + $"Difficulty: {difficulty}\n"
             + $"Number of questions: {NumberOfQuestions}\n"
-            + $"Total score: {Score}\n"
-            + $"Time taken: {TimeTaken}\n"
+            + $"Total score: {Score}/{NumberOfQuestions}\n"
+            + $"Time taken: {TimeTaken}\n\n"
             + "Listed below are the questions and answers:\n";
         //add each result to the game record
         foreach (string result in Results)

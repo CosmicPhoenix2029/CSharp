@@ -34,7 +34,7 @@ public class GameItem
     //methods for each subclass to use: (askQuestion invokes any of the E, M or H methods, which invokes the Build Answer method)
     string BuildAnswer()
     {
-        return $"The Question was: {Question}\n"
+        return $"Question: {Question}\n"
             + $"You Answered: {PlayerAnswer}\n"
             + $"The correct Answer was: {CorrectAnswer}\n";         
     }
@@ -136,6 +136,7 @@ public class GameItem
         PlayerAnswer = result;
         return BuildAnswer();
     }
+
     //public as GameEngine needs to call this method
     public string AskQuestion()
     {

@@ -1,6 +1,17 @@
 ﻿namespace MathGame;
 public class Menu
 {
+    //initialMenu
+    public static string HomeMenu()
+    {
+        Console.WriteLine("Please select an option from the list below:\n"
+            + "1. Start a new game\n"
+            + "2. View your previous games\n"
+            + "3. Press any key to exit");
+
+        string response = Console.ReadLine();
+        return response;
+    }
     //get the gamemode
     public static string GetGameMode()
     {
