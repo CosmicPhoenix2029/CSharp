@@ -4,7 +4,7 @@ public class Menu
     //get the gamemode
     public static string GetGameMode()
     {
-        string[] validOptions = { "A", "S", "M", "D", "R"};
+        string[] validOptions = { "A", "S", "M", "D", "R" };
         string response = "";
         do
         {
@@ -52,6 +52,6 @@ public class Menu
             convertedToInt = int.TryParse(Console.ReadLine(), out numOfQuestions);
             Console.Clear();
         }
-        return numOfQuestions;   
+        return numOfQuestions;
     }
 }

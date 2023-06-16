@@ -9,7 +9,7 @@ public class GameItem
     public string Question { get; private set; }
     public int PlayerAnswer { get; private set; }
     public int CorrectAnswer { get; private set; }
-    
+
     //no set is required:
     public int NumOne { get; }
     public int NumTwo { get; }
@@ -34,9 +34,9 @@ public class GameItem
     //methods for each subclass to use: (askQuestion invokes any of the E, M or H methods, which invokes the Build Answer method)
     string BuildAnswer()
     {
-        return @$"The Question was: {Question}
-                   You Answered: {PlayerAnswer}
-                   The correct Answer was: {CorrectAnswer}";
+        return $"The Question was: {Question}\n"
+            + $"You Answered: {PlayerAnswer}\n"
+            + $"The correct Answer was: {CorrectAnswer}\n";         
     }
 
     string EasyQuestion()
@@ -45,19 +45,19 @@ public class GameItem
         switch (GameMode)
         {
             case "A":
-                Question = $"What is: {NumOne} + {NumTwo}";
+                Question = $"What is {NumOne} + {NumTwo}";
                 CorrectAnswer = NumOne + NumTwo;
                 break;
             case "S":
-                Question = $"What is: {NumOne} - {NumTwo}";
+                Question = $"What is {NumOne} - {NumTwo}";
                 CorrectAnswer = NumOne - NumTwo;
                 break;
             case "M":
-                Question = $"What is: {NumOne} * {NumTwo}";
+                Question = $"What is {NumOne} * {NumTwo}";
                 CorrectAnswer = NumOne * NumTwo;
                 break;
             case "D":
-                Question = $"What is: {NumOne} / {NumTwo}";
+                Question = $"What is {NumOne} / {NumTwo}";
                 CorrectAnswer = NumOne / NumTwo;
                 break;
         }
@@ -77,19 +77,19 @@ public class GameItem
         switch (GameMode)
         {
             case "A":
-                Question = $"What is: {NumOne} + {NumTwo} + {NumThree}";
+                Question = $"What is {NumOne} + {NumTwo} + {NumThree}";
                 CorrectAnswer = NumOne + NumTwo + NumThree;
                 break;
             case "S":
-                Question = $"What is: {NumOne} - {NumTwo} - {NumThree}";
+                Question = $"What is {NumOne} - {NumTwo} - {NumThree}";
                 CorrectAnswer = NumOne - NumTwo - NumThree;
                 break;
             case "M":
-                Question = $"What is: {NumOne} * {NumTwo} * {NumThree}";
+                Question = $"What is {NumOne} * {NumTwo} * {NumThree}";
                 CorrectAnswer = NumOne * NumTwo * NumThree;
                 break;
             case "D":
-                Question = $"What is: {NumOne} / {NumTwo} / {NumThree}";
+                Question = $"What is {NumOne} / {NumTwo} / {NumThree}";
                 CorrectAnswer = NumOne / NumTwo / NumThree;
                 break;
         }
@@ -105,24 +105,24 @@ public class GameItem
     }
 
     string HardQuestion()
-    { 
+    {
         //switch through each operation and generate the question and answer
         switch (GameMode)
         {
             case "A":
-                Question = $"What is: {NumOne} + {NumTwo} + {NumThree} + {NumFour}";
+                Question = $"What is {NumOne} + {NumTwo} + {NumThree} + {NumFour}";
                 CorrectAnswer = NumOne + NumTwo + NumThree + NumFour;
                 break;
             case "S":
-                Question = $"What is: {NumOne} - {NumTwo} - {NumThree} - {NumFour}";
+                Question = $"What is {NumOne} - {NumTwo} - {NumThree} - {NumFour}";
                 CorrectAnswer = NumOne - NumTwo - NumThree - NumFour;
                 break;
             case "M":
-                Question = $"What is: {NumOne} * {NumTwo} * {NumThree} * {NumFour}";
+                Question = $"What is {NumOne} * {NumTwo} * {NumThree} * {NumFour}";
                 CorrectAnswer = NumOne * NumTwo * NumThree * NumFour;
                 break;
             case "D":
-                Question = $"What is: {NumOne} / {NumTwo} / {NumThree} / {NumFour}";
+                Question = $"What is {NumOne} / {NumTwo} / {NumThree} / {NumFour}";
                 CorrectAnswer = NumOne / NumTwo / NumThree / NumFour;
                 break;
         }

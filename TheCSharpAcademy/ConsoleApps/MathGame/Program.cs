@@ -1,19 +1,26 @@
-﻿namespace MathGame;
-class Program 
+﻿namespace MathGame
 {
-    static void Main(string[] args)
+    class Program
     {
-        //add a list to store all results
+        static void Main(string[] args)
+        {
+            //add a list to store all results
+            List<string> previousGames = new List<string>();
 
-        //get gamemode and validate input
-        string gameMode = Menu.GetGameMode();
-        string difficulty = Menu.GetDifficulty();
-        int numberOfQuestions = Menu.GetNumberOfQuestions();
+            //get gamemode and validate input
+            string gameMode = Menu.GetGameMode();
+            string difficulty = Menu.GetDifficulty();
+            int numberOfQuestions = Menu.GetNumberOfQuestions();
 
-        //create a new game
-        GameEngine game = new GameEngine(gameMode, difficulty, numberOfQuestions);
+            //create a new game
+            GameEngine game = new GameEngine(gameMode, difficulty, numberOfQuestions);
+            previousGames.Add(game.StartGame());
 
-        game.StartGame();
-
+            foreach (string previousGame in previousGames)
+            {
+                Console.WriteLine(previousGame);
+            }
+        }
     }
+
 }
