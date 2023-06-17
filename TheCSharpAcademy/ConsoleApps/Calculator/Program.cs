@@ -14,6 +14,7 @@ class Program
 
     static void MainMenu()
     {
+        Console.Clear();
         Console.WriteLine(@"Please Select an option from the list below:
         1. New Calculation
         2. View latest calculations
@@ -41,18 +42,23 @@ class Program
         {
             Calculator calculator = new(num1, operationType);
             calculator.DoOperation();
-            recentCalculations.Add(FormatOneNumberOperation(calculator));
+            string formattedOperation = FormatOneNumberOperation(calculator);
+            recentCalculations.Add(formattedOperation);
             recentResults.Add(calculator.Result);
+            Console.WriteLine(formattedOperation);
         }
         else 
         {
             double num2 = GetNumber();
             Calculator calculator = new(num1, operationType, num2);
             calculator.DoOperation();
-            FormatTwoNumberOperation(calculator);
-            recentCalculations.Add(FormatTwoNumberOperation(calculator));
+            string formattedOperation = FormatTwoNumberOperation(calculator);
+            recentCalculations.Add(formattedOperation);
             recentResults.Add(calculator.Result);
+            Console.WriteLine(formattedOperation);
         }
+        Console.WriteLine("Press any key to continue:");
+        Console.ReadKey();
         MainMenu();
     }
 
@@ -126,13 +132,22 @@ class Program
     {
         foreach (string operation in recentCalculations)
         {
-            Console.WriteLine($"{operation}");
-            //Console.WriteLine($"{operation.Num1} {operation.OperationType} {operation.Num2}");
+            Console.WriteLine($"ID: {recentCalculations.IndexOf(operation)} | {operation}");
         }
+        Console.WriteLine("Would you like to use a result listed above in another operation?\n" +
+            "Press Y to proceed, or any other key to return to the main menu:");
+        string response = Console.ReadLine().ToUpper();
 
-        Console.WriteLine("Press any key to return to the main menu");
-        Console.ReadKey();
-        MainMenu();
+        if (response.Equals("Y"))
+        {
+            Console.WriteLine("Enter the ID of the result you would like to use:");
+            string id = Console.ReadLine();
+        }
+        else 
+        {
+            MainMenu();
+        }
+        
     }
 
     static void ClearList()
