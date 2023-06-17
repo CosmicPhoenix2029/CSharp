@@ -61,12 +61,14 @@ public class GameItem
                 CorrectAnswer = NumOne / NumTwo;
                 break;
         }
+
         while (!intCoverted)
         {
             Console.WriteLine(Question);
             intCoverted = int.TryParse(Console.ReadLine(), out result);
             Console.Clear();
         }
+
         PlayerAnswer = result;
         return BuildAnswer();
     }

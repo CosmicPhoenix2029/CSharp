@@ -28,6 +28,7 @@ public class GameEngine
     public string StartGame()
     {
         long startTime = Stopwatch.GetTimestamp();
+
         for (int i = 0; i < NumberOfQuestions; i++)
         {
             if (GameMode.Equals("R"))
@@ -41,22 +42,23 @@ public class GameEngine
                     case 3: GameMode = "M"; break;
                     case 4: GameMode = "D"; break;
                 }
+
                 GameItem question = new GameItem(GameMode, Difficulty);
                 GameMode = "R";
                 string result = question.AskQuestion();
                 Results.Add(result);
-                //increment the score if correct:
                 if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
             }
+
             else 
             {
                 GameItem question = new GameItem(GameMode, Difficulty);
                 string result = question.AskQuestion();
                 Results.Add(result);
-                //increment the score if correct:
                 if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
             }
         }
+
         TimeTaken = Stopwatch.GetElapsedTime(startTime).ToString(@"mm\:ss");
         return RecordGame();
     }
@@ -74,19 +76,21 @@ public class GameEngine
             case "D": gameMode = "Division"; break;
             case "R": gameMode = "Random"; break;
         }
+
         switch (Difficulty) 
         {
             case "E": difficulty = "Easy"; break;
             case "M": difficulty = "Medium"; break;
             case "H": difficulty = "Hard"; break;
         }
+
         string gameResults = $"GameMode: {gameMode}\n"
             + $"Difficulty: {difficulty}\n"
             + $"Number of questions: {NumberOfQuestions}\n"
             + $"Total score: {Score}/{NumberOfQuestions}\n"
             + $"Time taken: {TimeTaken}\n\n"
             + "Listed below are the questions and answers:\n";
-        //add each result to the game record
+        
         foreach (string result in Results)
         {
             gameResults += result;  

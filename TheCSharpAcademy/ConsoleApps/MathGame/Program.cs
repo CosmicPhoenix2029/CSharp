@@ -12,6 +12,7 @@ class Program
         do
         {
             response = Menu.HomeMenu();
+
             switch (response)
             {
                 //new game
@@ -25,6 +26,7 @@ class Program
                     GameEngine game = new GameEngine(gameMode, difficulty, numberOfQuestions);
                     previousGames.Add(game.StartGame());
                     break;
+
                 //view results
                 case "2":
                     foreach (string previousGame in previousGames)

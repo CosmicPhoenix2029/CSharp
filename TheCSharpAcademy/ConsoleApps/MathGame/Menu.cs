@@ -12,11 +12,12 @@ public class Menu
         string response = Console.ReadLine();
         return response;
     }
-    //get the gamemode
+    
     public static string GetGameMode()
     {
         string[] validOptions = { "A", "S", "M", "D", "R" };
         string response = "";
+
         do
         {
             Console.WriteLine($"Welcome to my maths game! Please enter an option from the list below:\n"
@@ -29,10 +30,10 @@ public class Menu
             Console.Clear();
         }
         while (!(validOptions.Contains(response)));
+
         return response;
     }
 
-    //get the difficulty:
     public static string GetDifficulty()
     {
         string[] validOptions = { "E", "M", "H" };
@@ -48,10 +49,10 @@ public class Menu
             Console.Clear();
         }
         while (!(validOptions.Contains(difficulty)));
+
         return difficulty;
     }
 
-    //Get the number of questions:
     public static int GetNumberOfQuestions()
     {
         bool convertedToInt = false;
@@ -63,6 +64,7 @@ public class Menu
             convertedToInt = int.TryParse(Console.ReadLine(), out numOfQuestions);
             Console.Clear();
         }
+
         return numOfQuestions;
     }
 }
