@@ -2,7 +2,10 @@
 
 class Program
 {
-    static List<Calculator> recentCalculations = new();
+    //list to display
+    static List<string> recentCalculations = new();
+    //list for re-using previous results
+    static List<double> recentResults = new();
 
     static void Main()
     {     
@@ -36,14 +39,19 @@ class Program
         string[] singleNumberOperations = { "r", "x", "i", "c", "t"};
         if (singleNumberOperations.Contains(operationType))
         {
-            Calculator calculator = new(num1, operationType); 
-            recentCalculations.Add(calculator);
+            Calculator calculator = new(num1, operationType);
+            calculator.DoOperation();
+            recentCalculations.Add(FormatOneNumberOperation(calculator));
+            recentResults.Add(calculator.Result);
         }
         else 
         {
             double num2 = GetNumber();
             Calculator calculator = new(num1, operationType, num2);
-            recentCalculations.Add(calculator);
+            calculator.DoOperation();
+            FormatTwoNumberOperation(calculator);
+            recentCalculations.Add(FormatTwoNumberOperation(calculator));
+            recentResults.Add(calculator.Result);
         }
         MainMenu();
     }
@@ -88,11 +96,38 @@ class Program
         return response;
     }
 
+    static string FormatOneNumberOperation(Calculator calculator)
+    {
+        return calculator.OperationType switch
+        {
+            "r" => $"√{calculator.Num1} = {calculator.Result}",
+            "i" => $"sin({calculator.Num1}) = {calculator.Result}",
+            "c" => $"cos({calculator.Num1}) = {calculator.Result}",
+            "t" => $"tan({calculator.Num1}) = {calculator.Result}",
+            "x" => $"{calculator.Num1} * 10 = {calculator.Result}",
+            _ => $"{calculator.Num1} unknownOperation = {calculator.Result}"
+        };   
+    }
+
+    static string FormatTwoNumberOperation(Calculator calculator)
+    {
+        return calculator.OperationType switch
+        {
+            "a" => $"{calculator.Num1} + {calculator.Num2} = {calculator.Result}",
+            "s" => $"{calculator.Num1} - {calculator.Num2} = {calculator.Result}",
+            "m" => $"{calculator.Num1} * {calculator.Num2} = {calculator.Result}",
+            "d" => $"{calculator.Num1} / {calculator.Num2} = {calculator.Result}",
+            "p" => $"{calculator.Num1} ^ {calculator.Num2} = {calculator.Result}",
+            _ => $"{calculator.Num1} unknownOperation {calculator.Num2} = {calculator.Result}"
+        };
+    }
+
     static void ViewLatestOperations()
     {
-        foreach (Calculator operation in recentCalculations)
+        foreach (string operation in recentCalculations)
         {
-            Console.WriteLine($"{operation.Num1} {operation.OperationType} {operation.Num2}");
+            Console.WriteLine($"{operation}");
+            //Console.WriteLine($"{operation.Num1} {operation.OperationType} {operation.Num2}");
         }
 
         Console.WriteLine("Press any key to return to the main menu");

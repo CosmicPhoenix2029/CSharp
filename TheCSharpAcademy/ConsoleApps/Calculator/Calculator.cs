@@ -7,7 +7,7 @@ public class Calculator
     public double Result { get; set; }
     public string OperationType { get; set; }
 
-    //here I am setting Num2 as an optional parameter, which defaults to NaN (as its not possible to set it to this any other way)
+    //here I am setting Num2 as an optional parameter, for use in the DoOperation method
     public Calculator(double num1, string operationType, double num2 = double.NaN)
     {
         Num1 = num1;
