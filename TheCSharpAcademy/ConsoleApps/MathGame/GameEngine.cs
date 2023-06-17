@@ -31,33 +31,25 @@ public class GameEngine
         long startTime = Stopwatch.GetTimestamp();
         for (int i = 0; i < NumberOfQuestions; i++)
         {
-            Random randomNumber = new Random();
-            int number = randomNumber.Next(1, 4);
             if (GameMode.Equals("R"))
-            { 
-                switch (number)
+            {
+                Random number = new Random();
+                int num = number.Next(1, 4);
+                switch (num)
                 {
-                    case 1:
-                        GameMode = "A";
-                        break;
-                    case 2:
-                        GameMode = "S";
-                        break;
-                    case 3:
-                        GameMode = "M";
-                        break;
-                    case 4:
-                        GameMode = "D";
-                        break;
-                    GameItem question = new GameItem(GameMode, Difficulty);
-                    string result = question.AskQuestion();
-                    Results.Add(result);
-                    //increment the score if correct:
-                    if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
-                    GameMode = "R";
+                    case 1: GameMode = "A"; break;
+                    case 2: GameMode = "S"; break;
+                    case 3: GameMode = "M"; break;
+                    case 4: GameMode = "D"; break;
                 }
+                GameItem question = new GameItem(GameMode, Difficulty);
+                GameMode = "R";
+                string result = question.AskQuestion();
+                Results.Add(result);
+                //increment the score if correct:
+                if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
             }
-            else
+            else 
             {
                 GameItem question = new GameItem(GameMode, Difficulty);
                 string result = question.AskQuestion();
@@ -65,7 +57,6 @@ public class GameEngine
                 //increment the score if correct:
                 if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
             }
-
         }
         TimeTaken = Stopwatch.GetElapsedTime(startTime).ToString(@"mm\:ss");
         return RecordGame();
@@ -84,14 +75,12 @@ public class GameEngine
             case "D": gameMode = "Division"; break;
             case "R": gameMode = "Random"; break;
         }
-
         switch (Difficulty) 
         {
             case "E": difficulty = "Easy"; break;
             case "M": difficulty = "Medium"; break;
             case "H": difficulty = "Hard"; break;
         }
-
         string gameResults = $"GameMode: {gameMode}\n"
             + $"Difficulty: {difficulty}\n"
             + $"Number of questions: {NumberOfQuestions}\n"
