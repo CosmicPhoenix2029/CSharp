@@ -1,32 +1,47 @@
-﻿class Calculator
-{
-    public static double DoOperation(double num1, double num2, string op)
-    {
-        double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
+﻿namespace CalculatorProgram;
 
-        // Use a switch statement to do the math.
-        switch (op)
+public class Calculator
+{
+    public double Num1 { get; set; }
+    public double Num2 { get; set; }
+    public double Result { get; set; }
+    public string OperationType { get; set; }
+
+    //here I am setting Num2 as an optional parameter, which defaults to NaN (as its not possible to set it to this any other way)
+    public Calculator(double num1, string operationType, double num2 = double.NaN)
+    {
+        Num1 = num1;
+        Num2 = num2;
+        OperationType = operationType;
+        Result = double.NaN;
+    }
+
+    public void DoOperation()
+    {
+        if (!double.IsNaN(Num2))
         {
-            case "a":
-                result = num1 + num2;
-                break;
-            case "s":
-                result = num1 - num2;
-                break;
-            case "m":
-                result = num1 * num2;
-                break;
-            case "d":
-                // Ask the user to enter a non-zero divisor.
-                if (num2 != 0)
-                {
-                    result = num1 / num2;
-                }
-                break;
-            // Return text for an incorrect option entry.
-            default:
-                break;
+            switch (OperationType)
+            {
+                case "a": Result = Num1 + Num2; break;
+                case "s": Result = Num1 - Num2; break;
+                case "m": Result = Num1 * Num2; break;
+                case "d": if (Num2 != 0) Result = Num1 / Num2; break;
+                case "p": Result = Math.Pow(Num1, Num2); break;
+                default: break;
+            }
         }
-        return result;
+
+        else 
+        {
+            switch (OperationType)
+            {
+                case "r": Result = Math.Sqrt(Num1); break;
+                case "i": Result = Math.Sin(Num1); break;
+                case "c": Result = Math.Cos(Num1); break;
+                case "t": Result = Math.Tan(Num1); break;
+                case "x": Result = Num1 * 10; break;
+                default: break;
+            }
+        }
     }
 }

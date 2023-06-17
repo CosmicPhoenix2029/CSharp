@@ -1,75 +1,109 @@
-﻿class Program
+﻿namespace CalculatorProgram;
+
+class Program
 {
-    static void Main(string[] args)
+    static List<Calculator> recentCalculations = new();
+
+    static void Main()
+    {     
+        MainMenu();
+    }
+
+    static void MainMenu()
     {
-        bool endApp = false;
-        int timesUsed;
-        List<string> latestCalculations = new();
-        // Display title as the C# console calculator app.
-        Console.WriteLine("Console Calculator in C#\r");
-        Console.WriteLine("------------------------\n");
+        Console.WriteLine(@"Please Select an option from the list below:
+        1. New Calculation
+        2. View latest calculations
+        3. Delete the previous calculations
+        Press any other key to exit: ");
 
-        while (!endApp)
+        string response = Console.ReadLine()!;
+
+        switch (response)
         {
-            // Declare variables.
-            string numInput1;
-            string numInput2;
-            double result;
-
-            // Ask the user to type the first number.
-            Console.Write("Type a number, and then press Enter: ");
-            numInput1 = Console.ReadLine();
-
-            double cleanNum1;
-            while (!double.TryParse(numInput1, out cleanNum1))
-            {
-                Console.Write("This is not valid input. Please enter an integer value: ");
-                numInput1 = Console.ReadLine();
-            }
-
-            // Ask the user to type the second number.
-            Console.Write("Type another number, and then press Enter: ");
-            numInput2 = Console.ReadLine();
-
-            double cleanNum2;
-            while (!double.TryParse(numInput2, out cleanNum2))
-            {
-                Console.Write("This is not valid input. Please enter an integer value: ");
-                numInput2 = Console.ReadLine();
-            }
-
-            // Ask the user to choose an operator.
-            Console.WriteLine("Choose an operator from the following list:");
-            Console.WriteLine("\ta - Add");
-            Console.WriteLine("\ts - Subtract");
-            Console.WriteLine("\tm - Multiply");
-            Console.WriteLine("\td - Divide");
-            Console.Write("Your option? ");
-
-            string op = Console.ReadLine();
-
-            try
-            {
-                result = Calculator.DoOperation(cleanNum1, cleanNum2, op);
-                if (double.IsNaN(result))
-                {
-                    Console.WriteLine("This operation will result in a mathematical error.\n");
-                }
-                else Console.WriteLine("Your result: {0:0.##}\n", result);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
-            }
-
-            Console.WriteLine("------------------------\n");
-
-            // Wait for the user to respond before closing.
-            Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
-            if (Console.ReadLine() == "n") endApp = true;
-
-            Console.WriteLine("\n"); // Friendly linespacing.
+            case "1": NewCalculation(); break;
+            case "2": ViewLatestOperations(); break;
+            case "3": ClearList(); break;
+            default: break;
         }
-        return;
+    }
+
+    static void NewCalculation()
+    {
+        double num1 = GetNumber();
+        string operationType = GetOperationType();
+
+        string[] singleNumberOperations = { "r", "x", "i", "c", "t"};
+        if (singleNumberOperations.Contains(operationType))
+        {
+            Calculator calculator = new(num1, operationType); 
+            recentCalculations.Add(calculator);
+        }
+        else 
+        {
+            double num2 = GetNumber();
+            Calculator calculator = new(num1, operationType, num2);
+            recentCalculations.Add(calculator);
+        }
+        MainMenu();
+    }
+
+    static double GetNumber()
+    {
+        Console.Write("Type a number, and then press Enter: ");
+        string input = Console.ReadLine();
+        double num;
+
+        while (!double.TryParse(input, out num))
+        {
+            Console.Write("This is not valid input. Please enter an integer value: ");
+            input = Console.ReadLine();
+        }
+        return num;
+    }
+
+    static string GetOperationType()
+    {
+        string[] validOptions = { "a", "s", "m", "d", "r", "p", "x", "i", "c", "t" };
+        string response;
+
+        do
+        {
+            //get the operation type
+            Console.WriteLine("choose an operation from the list below:\n"
+            + "a - Add\n"
+            + "s - Subtract\n"
+            + "m - Multiply\n"
+            + "d - Divide\n"
+            + "r - Square root\n"
+            + "p - Power of\n"
+            + "x - x10\n"
+            + "i - Sine\n"
+            + "c - Cosine\n"
+            + "t - Tangent\n");
+            response = Console.ReadLine().ToLower();
+        }
+        while (!(validOptions.Contains(response)));
+
+        return response;
+    }
+
+    static void ViewLatestOperations()
+    {
+        foreach (Calculator operation in recentCalculations)
+        {
+            Console.WriteLine($"{operation.Num1} {operation.OperationType} {operation.Num2}");
+        }
+
+        Console.WriteLine("Press any key to return to the main menu");
+        Console.ReadKey();
+        MainMenu();
+    }
+
+    static void ClearList()
+    {
+        recentCalculations.Clear();
+        Console.WriteLine("List cleared successfully");
+        MainMenu();
     }
 }
