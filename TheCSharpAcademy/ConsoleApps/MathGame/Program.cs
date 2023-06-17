@@ -31,7 +31,8 @@ class Program
                     {
                         Console.WriteLine("--------------------\n"
                             + $"Game: {previousGames.IndexOf(previousGame) + 1}\n"
-                            + $"{previousGame}\n");
+                            + $"{previousGame}\n"
+                            +"--------------------\n");
                     }
                     //allow the user to decide when to return to the main menu:
                     Console.WriteLine("Press enter to return to the main menu");
