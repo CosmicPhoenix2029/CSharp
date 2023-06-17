@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.Design;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 namespace MathGame;
 
 public class GameEngine
