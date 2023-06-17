@@ -12,11 +12,11 @@ public class Menu
         string response = Console.ReadLine();
         return response;
     }
-    
+
     public static string GetGameMode()
     {
         string[] validOptions = { "A", "S", "M", "D", "R" };
-        string response = "";
+        string response;
 
         do
         {
@@ -37,7 +37,7 @@ public class Menu
     public static string GetDifficulty()
     {
         string[] validOptions = { "E", "M", "H" };
-        string difficulty = "";
+        string difficulty;
         do
         {
             Console.WriteLine($"Please select a difficulty:\n"

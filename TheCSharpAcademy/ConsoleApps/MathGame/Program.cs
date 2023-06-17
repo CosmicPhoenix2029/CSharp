@@ -2,13 +2,13 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         //add a list to store all results
-        List<string> previousGames = new List<string>();
+        List<string> previousGames = new();
 
         //the do while loop returns to the main menu until the user exits
-        string response = "";
+        string response;
         do
         {
             response = Menu.HomeMenu();
@@ -23,7 +23,7 @@ class Program
                     int numberOfQuestions = Menu.GetNumberOfQuestions();
 
                     //create a new game
-                    GameEngine game = new GameEngine(gameMode, difficulty, numberOfQuestions);
+                    GameEngine game = new(gameMode, difficulty, numberOfQuestions);
                     previousGames.Add(game.StartGame());
                     break;
 
@@ -34,7 +34,7 @@ class Program
                         Console.WriteLine("--------------------\n"
                             + $"Game: {previousGames.IndexOf(previousGame) + 1}\n"
                             + $"{previousGame}\n"
-                            +"--------------------\n");
+                            + "--------------------\n");
                     }
                     //allow the user to decide when to return to the main menu:
                     Console.WriteLine("Press enter to return to the main menu");

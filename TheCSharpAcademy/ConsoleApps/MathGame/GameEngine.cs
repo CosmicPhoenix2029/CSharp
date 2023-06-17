@@ -12,7 +12,7 @@ public class GameEngine
     public string TimeTaken { get; set; }
     //list to store the game history:
     public List<string> Results { get; set; }
-    
+
     //construct a new game
     public GameEngine(string gameMode, string difficulty, int numberOfQuestions)
     {
@@ -33,7 +33,7 @@ public class GameEngine
         {
             if (GameMode.Equals("R"))
             {
-                Random number = new Random();
+                Random number = new();
                 int num = number.Next(1, 4);
                 switch (num)
                 {
@@ -43,16 +43,16 @@ public class GameEngine
                     case 4: GameMode = "D"; break;
                 }
 
-                GameItem question = new GameItem(GameMode, Difficulty);
+                GameItem question = new(GameMode, Difficulty);
                 GameMode = "R";
                 string result = question.AskQuestion();
                 Results.Add(result);
                 if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
             }
 
-            else 
+            else
             {
-                GameItem question = new GameItem(GameMode, Difficulty);
+                GameItem question = new(GameMode, Difficulty);
                 string result = question.AskQuestion();
                 Results.Add(result);
                 if (question.PlayerAnswer == question.CorrectAnswer) { Score++; }
@@ -68,7 +68,7 @@ public class GameEngine
         string gameMode = "";
         string difficulty = "";
         //switch through the gamemodes to add to results
-        switch (GameMode) 
+        switch (GameMode)
         {
             case "A": gameMode = "Addition"; break;
             case "S": gameMode = "Subtraction"; break;
@@ -77,7 +77,7 @@ public class GameEngine
             case "R": gameMode = "Random"; break;
         }
 
-        switch (Difficulty) 
+        switch (Difficulty)
         {
             case "E": difficulty = "Easy"; break;
             case "M": difficulty = "Medium"; break;
@@ -90,10 +90,10 @@ public class GameEngine
             + $"Total score: {Score}/{NumberOfQuestions}\n"
             + $"Time taken: {TimeTaken}\n\n"
             + "Listed below are the questions and answers:\n";
-        
+
         foreach (string result in Results)
         {
-            gameResults += result;  
+            gameResults += result;
         }
         return gameResults;
     }

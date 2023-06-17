@@ -3,7 +3,7 @@
 public class GameItem
 {
     //only allow subclases to get and set the properties:
-    Random randomNumber = new Random();
+    readonly Random randomNumber = new();
     public string Difficulty { get; set; }
     public string GameMode { get; set; }
     public string Question { get; private set; }
@@ -36,7 +36,7 @@ public class GameItem
     {
         return $"Question: {Question}\n"
             + $"You Answered: {PlayerAnswer}\n"
-            + $"The correct Answer was: {CorrectAnswer}\n";         
+            + $"The correct Answer was: {CorrectAnswer}\n";
     }
 
     string EasyQuestion()
@@ -142,15 +142,13 @@ public class GameItem
     //public as GameEngine needs to call this method
     public string AskQuestion()
     {
-        switch (Difficulty)
+        return Difficulty switch
         {
-            case "E": return EasyQuestion();
-
-            case "M": return MediumQuestion();
-
-            case "H": return HardQuestion();
+            "E" => EasyQuestion(),
+            "M" => MediumQuestion(),
+            "H" => HardQuestion(),
             //the while loop inside menu (line 28) ensures it's not possible to hit the default case, however default to a meduim question
-            default: return MediumQuestion();
-        }
+            _ => MediumQuestion(),
+        };
     }
 }
