@@ -1,4 +1,7 @@
-﻿namespace CalculatorProgram;
+﻿using System;
+using System.Diagnostics.Contracts;
+
+namespace CalculatorProgram;
 
 class Program
 {
@@ -31,10 +34,14 @@ class Program
             default: break;
         }
     }
-
-    static void NewCalculation()
+    //optional parameter so I can pass in the result if required
+    static void NewCalculation(double num1 = double.NaN)
     {
-        double num1 = GetNumber();
+        if (double.IsNaN(num1))
+        {
+            num1 = GetNumber();
+        }
+        
         string operationType = GetOperationType();
 
         string[] singleNumberOperations = { "r", "x", "i", "c", "t"};
@@ -57,6 +64,7 @@ class Program
             recentResults.Add(calculator.Result);
             Console.WriteLine(formattedOperation);
         }
+
         Console.WriteLine("Press any key to continue:");
         Console.ReadKey();
         MainMenu();
@@ -83,7 +91,6 @@ class Program
 
         do
         {
-            //get the operation type
             Console.WriteLine("choose an operation from the list below:\n"
             + "a - Add\n"
             + "s - Subtract\n"
@@ -141,19 +148,40 @@ class Program
         if (response.Equals("Y"))
         {
             Console.WriteLine("Enter the ID of the result you would like to use:");
-            string id = Console.ReadLine();
+            if (int.TryParse(Console.ReadLine(), out int num))
+            {
+                try
+                {
+                    double number = recentResults[num];
+                    NewCalculation(number);
+                }
+                catch
+                {
+                    Console.WriteLine($"Failed to find an operation with ID: {num}\n"
+                        + $"Press any key to return to the main menu:");
+                    Console.ReadKey();
+                    MainMenu();
+                }
+            }
+            else 
+            {
+                Console.WriteLine($"Invalid Input detected. Press any key to return to the main menu:");
+                Console.ReadKey();
+                MainMenu();
+            }
         }
         else 
         {
             MainMenu();
-        }
-        
+        }  
     }
 
     static void ClearList()
     {
         recentCalculations.Clear();
-        Console.WriteLine("List cleared successfully");
+        recentResults.Clear();
+        Console.WriteLine("List cleared successfully.\nPress any key to continue:");
+        Console.ReadKey();
         MainMenu();
     }
 }
